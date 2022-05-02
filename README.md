@@ -1,3 +1,32 @@
+## Sobre a aplicação
+
+O projeto consiste em um sistema Laravel de consumo de uma API REST com o objetivo de cadastro de usuários, posts e comentários
+
+## Etapas
+
+Cadastro de Usuário
+Listar todos os usuários (pesquisa por ID)
+Cadastro de post do usuário
+Cadastro de comentário do post criado
+cadastro de comentário na lista pública de posts
+Exclusão do comentário
+ 
+
+## Tecnologias utilizadas
+<ul>
+<li>Laravel</li>
+<li>Bootstrap</li>
+<li>Docker</li>
+</ul>
+
+## Inicialização do projeto
+<p>Os comandos seguintes devem ser executados no diretório do projeto clonado ou devidamente baixado e extraído:</p>
+
+<code>composer install</code><br>
+<code>docker-compose up -d</code><br>
+<code>php artisan serve</code><br>
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
