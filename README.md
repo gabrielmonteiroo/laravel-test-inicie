@@ -23,6 +23,8 @@ Exclusão do comentário
 <p>Os comandos seguintes devem ser executados no diretório do projeto clonado ou devidamente baixado e extraído:</p>
 
 <code>composer install</code><br>
+<code>cp .env.example .env</code><br>
+<code>php artisan key:generate</code><br>
 <code>docker-compose up -d</code><br>
 <code>php artisan serve</code><br>
 
